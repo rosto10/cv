@@ -1,79 +1,57 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">    
-    <title>My Personal Website</title>
+    <title>Siraj Chothia</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 <body>
-    <table cellspacing="20">
-        <tr>
-            <td><img src="images/siraj.png" alt="siraj profile picture"/></td>
-            <td>
-                <h1>Siraj Chothia</h1>
-                <p><em> Software Developer</em></p>
-                <p>I am a Full Stack Developer. I love coffee. </p>
-            </td>
-        </tr>
-    </table>        
-    <hr>
-    <h3>Education</h3>
-    <ul>
-        <li>University of the West Indies</li>
-        <li>SJPI</li>
-    </ul>
-    <hr>
-    <h3>Work Experience</h3>
-    <table cellspacing="10">
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th>Work</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2010-2013</td>
-                <td>Tech Support</td>            
-            </tr>
-            <tr>
-                <td>2013-Present</td>
-                <td>Software Developer</td>
-            </tr>
-        </tbody>
-        <tfoot></tfoot>        
-    </table>
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing="10">
-        <tr>
-            <td>
-                <table>
-                    <tr>
-                        <td>Back End Development</td>
-                        <td>⭐⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>MongoDB</td>
-                        <td>⭐⭐⭐⭐</td>
-                    </tr>                    
-                </table>
-            </td>
-            <td>
-                <table>
-                    <tr>
-                        <td>Front End Development</td>
-                        <td>⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>React.js</td>
-                        <td>⭐🎇</td>
-                    </tr>        
-                </table>
-            </td>
-        </tr>
-    </table>
-    
-    <hr>
-    <a href="hobbies.html">My Hobbies</a>
-    <a href="contact-me.html">Contact Me</a>
-</body>
+    <div class="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+        <h1>I'm Siraj</h1>
+        <h2>a <span class="pro">pro</span>grammer.</h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+        <img src="images/mountain.png" alt="mountain">
+    </div>
+
+    <div class="middle-container">
+        <div class="profile">
+          <img class="profile-pic" src="images/siraj.png" alt="profile-img">
+          <h2>Hello.</h2>
+          <p class="intro">I am a software developer with ten years of experience in the field. I love coffee.</p>
+        </div>
+        <hr>
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img class="skill-computer" src="images/computer.png" alt="computer-img">
+            <h3>Full Stack Developer</h3>
+            <p>It is what I do. heidujfdjfgfdgj djsjkfsjkdf kdfjkfjndf. jdfndjfndjfksndsndjkjbfnkjfgfkjffjgnbfjfjlgnfj.</p>
+          </div>
+          <div class="skill-row">
+            <img class="skill-football" src="images/soccer-player.png" alt="football-img">
+            <h3>Football</h3>
+            <p class="skill-para">I'm an avid follower of the beautiful game plus also play recreationally and competitively.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>If you're interested in software development.</h3>
+          <p class="contact-message">If you're interested in software development in anyway or just wanna chat about the beautiful game, hit me up!</p>
+          <a class="btn" href="mailto:sirajc10@gmail.com">CONTACT ME</a>
+        </div>
+      </div>
+            
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/siraj-chothia-2555071a8/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+        <p class="copyright">© Siraj Chothia.</p>
+      </div>      
+  </body>
 </html>
